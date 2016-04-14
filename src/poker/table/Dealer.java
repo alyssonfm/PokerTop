@@ -37,9 +37,9 @@ public /* nullable_by_default */class Dealer {
    */
   public Dealer() {
     this.blind = new Blind(0, 0, 0);
-    //this.button = new Button();
+    this.button = new Button();
     this.deck = new Deck();
-    //this.pot = new Pot(0);
+    this.pot = new Pot(0);
   }
   
   public final void startGame(){
